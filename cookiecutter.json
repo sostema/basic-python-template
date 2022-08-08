@@ -1,0 +1,13 @@
+{
+  "full_name": "First Last",
+  "email": "test@email.com",
+  "github_name": "test",
+  "project_name": "Project Name",
+  "project_slug": "{{ cookiecutter.project_name | lower | replace(' ', '-') }}",
+  "module_name": "{{ cookiecutter.project_slug | replace('-', '_') }}",
+  "short_description": "Shorter description than before!",
+  "version": "0.0.1",
+  "_copy_without_render": [
+    ".github"
+  ]
+}
